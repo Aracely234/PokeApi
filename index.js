@@ -1,3 +1,4 @@
+//se traen los atributos del html a una constante para utilizarlos
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 const pokemonContainer = document.querySelector('.card');
