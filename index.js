@@ -60,15 +60,5 @@ puntosvida.textContent= pokemon.stats[0].base_stat;
 
 //Se crea una constante para crear un espacio para poner cada elemento en el html
 const card = document.getElementsByClassName('card');
-//Se pone cada elemento en el html con sus respectivas constantes
-card.appendChild(img);
-card.appendChild(nombre);
-card.appendChild(experiencia);
-card.appendChild(tipo);
-card.appendChild(defensa);
-card.appendChild(ataque);
-card.appendChild(puntosvida);
 
-//Se aplican todos los datos con cierto estilo de carta
-pokemonContainer.appendChild(card)
 }
